@@ -1,0 +1,1 @@
+# simple-aad-oidc-spa
