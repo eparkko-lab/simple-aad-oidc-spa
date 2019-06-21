@@ -38,7 +38,7 @@ function logout(network){
 	var authButton = document.getElementById('auth');
 	authButton.innerHTML = "Login AAD";
 	authButton.setAttribute('onclick', 'login("aad");');
-
+	window.location = 'https://login.microsoftonline.com/a9ea59c2-d4db-433e-9acc-b20de692b919/oauth2/v2.0/logout?post_logout_redirect_uri=https://eparkko-lab.github.io/simple-aad-oidc-spa/index.html'
 }, function(e) {
 	alert('Sign out error: ' + e.error.message);
 });

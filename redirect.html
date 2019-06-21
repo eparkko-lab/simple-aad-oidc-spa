@@ -14,11 +14,12 @@ This page is used for authentication as well as POST using the Iframe+form+hash 
 
 	<div class="loading"><span>&bull;</span><span>&bull;</span><span>&bull;</span></div>
 
-	<h2>Please close this window to continue.</h2>
+	<h2>Please close this window.</h2>
 	<script>
 		window.onbeforeunload = function(){
 			document.getElementsByTagName('h2')[0].innerHTML="Redirecting, please wait";
 		}
+		
 	</script>
 	<script src="./bower_components/hello/src/hello.polyfill.js"></script>
 	<script src="./bower_components/hello/src/hello.js"></script>
