@@ -6,8 +6,8 @@
 			
 			oauth: {
 				version: 2,
-				auth: 'https://login.microsoftonline.com/a9ea59c2-d4db-433e-9acc-b20de692b919/oauth2/v2.0/authorize',
-				grant: 'https://login.microsoftonline.com/a9ea59c2-d4db-433e-9acc-b20de692b919/oauth2/v2.0/token'
+				auth: 'https://login.microsoftonline.com/220b4154-cb09-4a96-a7a4-b9345d1a67c9/oauth2/v2.0/authorize',
+				grant: 'https://login.microsoftonline.com/220b4154-cb09-4a96-a7a4-b9345d1a67c9/oauth2/v2.0/token'
 			},
 
 			// Authorization scopes
