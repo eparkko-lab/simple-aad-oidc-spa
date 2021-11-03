@@ -13,7 +13,7 @@
 			// Authorization scopes
 			scope: {
 				// you can add as many scopes to the mapping as you want here
-				profile: 'user.read',
+				profile: 'user.read openid',
 				offline_access: ''
 			},
 
